@@ -1,3 +1,4 @@
+
 /* Global Style */
 
 /* Divider Style */
@@ -20,8 +21,8 @@
 
 /* Header Style */
 .header {
-  background-color: #00979c;
-  height: 30vh;
+  background-color: #c699d1;
+  height: 40vh;
   color: #fff;
   font-size: 0.8rem;
   display: flex;
@@ -31,12 +32,13 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    height: 40vh;
+    height: 50vh;
     font-size: 1rem;
   }
 }
 
 .header__avatar {
+  margin-top: 5%;
   width: 10rem;
   height: 10rem;
 }
@@ -67,14 +69,14 @@
     
     .header__slogan {
       font-size: 1.75em;
+      font-weight: 800;
       text-transform: uppercase;
-      margin: 0;
     }
  }
 
 /* Image Style */
 .image {
-  position: relative;;
+  position: relative;
 }
 
 .image__layout {
@@ -102,7 +104,7 @@
 
 /* Descriptions Style */
 .description__layout {
-  background-color: #00979c;
+  background-color: #c699d1;
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
@@ -117,11 +119,12 @@
 
 .description__content {
   text-indent: 2rem;
+  text-align: justify;
 }
 
 /* Footer Style */
 .footer__above {
-  background-color: #2c3e50;
+  background-color: #48384d;
   color: white;
 }
 
@@ -176,7 +179,7 @@
 }
 
 .footer__below {
-  background-color: #233140;
+  background-color: #0e0b0f;
   color: white;
   padding: 25px 0;
   text-align: center;
