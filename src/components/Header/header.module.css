@@ -1,0 +1,55 @@
+/* Header Style */
+.header {
+  background-color: #c699d1;
+  height: 40vh;
+  color: #fff;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 50vh;
+    font-size: 1rem;
+  }
+}
+
+.headerAvatar {
+  width: 10rem;
+  height: 10rem;
+}
+
+.headerTitle {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+.headerSlogan {
+  font-size: 1.25em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .headerAvatar {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .headerTitle {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+
+  .headerSlogan {
+    font-size: 1.75em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
